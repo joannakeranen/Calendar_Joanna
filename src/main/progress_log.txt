@@ -1,0 +1,82 @@
+24.4.2024
+WHAT I HAVE DONE:
+- Adding holidays to the calendar
+- Fixing reading and writing to an ics file
+- Transferring the events file to another calendar
+- Finishing adding events to the calendar (all day events, events that last multiple days)
+- Error handling in the case of incorrect input
+
+TESTING:
+- Using the gui.
+
+WHAT I WANT TO DISCUSS:
+- Grading section in A+ says that the document should contain descriptive diagrams to describe the
+structure of the program. Does this refer to the UML diagram? Or something else?
+- How much should I write about algorithms?
+- Does the project need to have tests? Is it enough to test the program using the gui and printing things?
+- I thought that committing the code was only for the sprint meetings and I haven't committed my code
+after all changes, but it is a grading criteria. What can I do at this point?
+
+OTHER PROBLEMS:
+- When adding an event that is over two days long the daily view shows the event at every time slot
+instead of the all day section
+
+
+
+14.4.2024
+
+WHAT I HAVE DONE:
+- View for adding an event and daily view
+- Adding the correct dates, week and month to the gui
+- Reading and writing to Categories file (text file), works
+- Reading and writing to Events file (ics), does not work
+- Getting Finnish holidays as an ics file from Google calendar (not used in my project yet)
+- Creating a method to add events to the calendar (not complete yet)
+
+TESTING:
+- Creating simple tests for classes, that mainly print things to see it the methods are working correctly
+
+WHAT I WANT TO DISCUSS:
+- My method for writing to an ics file doesn't work and I can't figure out what is wrong with my code.
+
+OTHER PROBLEMS:
+- How can I add events to only one daily view, because the daily view, that can be accessed by
+  clicking on the day that you want to view in detail, is the same view for each day?
+- How can I add an event to a specific date because the dates are calculated based on the current day,
+  each date is not specified in the gui?
+
+
+27.3.2024
+WHAT I HAVE DONE:
+- Work on the GUI
+- Switching between different views
+
+TESTING:
+- testing buttons by printing a text on click
+
+WHAT I WANT TO DISCUSS:
+- Can I have the date input as text (I need to learn about dateTime)
+
+OTHER PROBLEMS:
+- How can I make lines to the calendar?
+
+
+
+7.3.2024
+WHAT I HAVE DONE:
+- Created my initial idea of the class structure
+- Reading from EventExample file
+- GridPane for the GUI
+
+TESTING:
+- Main.scala: Testing that the GridPane layout is correct with different backgound colors of sections
+- Test for reading the example file
+
+WHAT I WANT TO DISCUSS:
+- How to test methods (for example how would I write a unit test for the method readFile or how can I print things in the method)?
+- Where should classes and files be placed in the structure?
+- What do I do with the information that I read from a file?
+- How do I read different files (should the file name be given as a parameter)?
+
+OTHER PROBLEMS:
+- Main.scala: Cannot add padding and spacing to GridPane (maybe import something? compared to Lunchreview, same imports)
